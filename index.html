@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech Conference 2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo">TechConf 2024</h1>
+            <nav>
+                <a href="#" class="text-white me-3">Home</a>
+                <a href="#about" class="text-white me-3">Sobre</a>
+                <a href="#agenda" class="text-white me-3">Agenda</a>
+                <a href="#contact" class="text-white">Contato</a>
+            </nav>
+            <a href="#" class="btn btn-primary">Inscreva-se</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); height: 100vh; background-size: cover;">
+        <div class="container">
+            <h2>A Maior Conferência de Tecnologia de 2024!</h2>
+            <p>Descubra as últimas tendências e inovações</p>
+            <a href="#" class="btn btn-light mt-3">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- Sobre o Evento -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h3>Sobre o Evento</h3>
+            <p class="lead">A TechConf 2024 reúne os maiores especialistas do setor para compartilhar conhecimento e novas ideias sobre a tecnologia do futuro.</p>
+        </div>
+    </section>
+
+    <!-- Agenda -->
+    <section id="agenda" class="bg-light py-5">
+        <div class="container text-center">
+            <h3>Agenda</h3>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Dia 1: Inovação e Startups</h4>
+                        <p>Discussões sobre o futuro das startups e inovações disruptivas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Dia 2: Inteligência Artificial</h4>
+                        <p>Exploração dos avanços em IA e machine learning.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <h4>Dia 3: Cibersegurança</h4>
+                        <p>Painéis sobre segurança digital no mundo hiperconectado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patrocinadores -->
+    <section id="sponsors" class="py-5">
+        <div class="container text-center">
+            <h3>Patrocinadores</h3>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="./img/amd.png" alt="Patrocinador 1" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/apple-logo.png" alt="Patrocinador 2" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/computer.png" alt="Patrocinador 3" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/intel.png" alt="Patrocinador 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h3 class="text-center">Contato</h3>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea id="message" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-4">
+        <p>© 2024 TechConf. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
